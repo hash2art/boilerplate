@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allowedTools": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git status *)"
+    ]
+  }
+}
