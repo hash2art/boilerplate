@@ -1,4 +1,4 @@
-Update `docs/PROGRESS.md` to capture the current session state:
+Update `memory/PROGRESS.md` to capture the current session state:
 
 1. Move any tasks completed this session into **Completed ✅** with `[x]` checkboxes and a brief note on what was done
 2. Update **In Progress 🔄** with any task that was started but not finished — include the specific file or function where work stopped
