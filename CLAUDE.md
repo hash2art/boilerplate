@@ -6,7 +6,7 @@
 
 ## Session Continuity
 
-This project uses `docs/PROGRESS.md` as the session handoff file. Claude's context resets each session — PROGRESS.md is the single source of truth for build state.
+This project uses `memory/PROGRESS.md` as the session handoff file. Claude's context resets each session — PROGRESS.md is the single source of truth for build state.
 
 - **Start every session:** run `/catchup` — Claude reads PROGRESS.md and confirms where to continue
 - **End every session:** run `/checkpoint` — Claude updates PROGRESS.md with completed items, in-progress state, and the next session's start instruction
